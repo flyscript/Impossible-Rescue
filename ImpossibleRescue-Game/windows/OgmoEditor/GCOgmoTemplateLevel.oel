@@ -1,0 +1,19 @@
+<level width="1920" height="1080">
+  <nodes>
+    <turn_node id="0" x="1136" y="1056" class="CTurnNode" shape="node" PlistFile="TexturePacker/Sprites/Nodes/Nodes.plist" B2DBodyType="b2_staticBody" HasFixedRotation="True" StartFlipped="False" />
+    <turn_node id="1" x="1824" y="1056" class="CTurnNode" shape="node" PlistFile="TexturePacker/Sprites/Nodes/Nodes.plist" B2DBodyType="b2_staticBody" HasFixedRotation="True" StartFlipped="False" />
+  </nodes>
+  <floor />
+  <walls />
+  <platforms>
+    <floor id="1" x="960" y="1064" class="CGCObjFloor" shape="floor" PlistFile="TexturePacker/Sprites/Platforms/Floor/Floor.plist" B2DBodyType="b2_staticBody" HasFixedRotation="True" FloorStyle="level_1" />
+  </platforms>
+  <doors />
+  <items />
+  <enemies>
+    <enemy_r3 id="0" x="1648" y="960" class="CGCEnemyR3" shape="enemy_r3" PlistFile="TexturePacker/Sprites/Enemies/Enemies.plist" B2DBodyType="b2_dynamicBody" HasFixedRotation="True" StartFlipped="True" AttackRange="1000" />
+  </enemies>
+  <player>
+    <spawn_point id="0" x="144" y="960" class="CGCObjPlayer" shape="danielle" PlistFile="TexturePacker/Sprites/Characters/Player/Danielle/Danielle.plist" B2DBodyType="b2_dynamicBody" HasFixedRotation="True" StartFlipped="False" />
+  </player>
+</level>

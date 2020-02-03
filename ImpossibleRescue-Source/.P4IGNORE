@@ -1,0 +1,25 @@
+cocos2d/cocos/2d/Debug.win32/
+cocos2d/cocos/editor-support/spine/proj.win32/Debug.win32/
+*.idb
+*.tlog
+*.db
+*.opendb
+proj.win32/Debug.win32/
+Resources/
+proj.win32/Release.win32/
+*.user
+BuildData/Debug/
+*.obj
+*.log
+*.pdb
+*.suo
+proj.win32/.vs/
+BuildData/Debug/
+BuildData/Release/
+BuildData/Debug with data/
+BuildData/Release with data/
+
+proj.visualstudio/.vs/
+proj.visualstudio/Cocos2d/
+proj.visualstudio/Cocos2dcpp/
+proj.visualstudio/x86/

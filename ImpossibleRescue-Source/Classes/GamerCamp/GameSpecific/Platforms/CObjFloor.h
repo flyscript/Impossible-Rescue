@@ -1,0 +1,32 @@
+#ifndef _GCOBJFLOOR_H_
+#define _GCOBJFLOOR_H_
+
+#include "../../GCCocosInterface/GCFactory_ObjSpritePhysics.h"
+#include "../../GCCocosInterface/GCObjSpritePhysics.h"
+
+class CObjFloor
+	: public CGCObjSpritePhysics
+{
+private:
+	// Current sprite frame name
+	// Designer can edit the property in OgmoEditor and it will affect this value to show the correct floor sprite by this name
+	std::string m_strFloorSpriteFrameName;
+
+public:
+	//////////////////////////////////////////////////////////////////////////
+	// Constructor
+	//////////////////////////////////////////////////////////////////////////
+	CObjFloor();
+
+	//////////////////////////////////////////////////////////////////////////
+	// GCFactory Marcos
+	//////////////////////////////////////////////////////////////////////////
+	GCFACTORY_DECLARE_CREATABLECLASS( CObjFloor );
+
+	//////////////////////////////////////////////////////////////////////////
+	// CGCObjSpritePhysics Virtual Methods
+	//////////////////////////////////////////////////////////////////////////
+	virtual void VOnResourceAcquire() override;
+	virtual void VOnResurrected() override;
+};
+#endif

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>frames</key>
+        <dict>
+            <key>Cutscene_merged.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{1,1},{1920,1080}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{0,0},{1920,1080}}</string>
+                <key>sourceSize</key>
+                <string>{1920,1080}</string>
+            </dict>
+        </dict>
+        <key>metadata</key>
+        <dict>
+            <key>format</key>
+            <integer>2</integer>
+            <key>pixelFormat</key>
+            <string>RGBA8888</string>
+            <key>premultiplyAlpha</key>
+            <false/>
+            <key>realTextureFileName</key>
+            <string>Act1Cutscene.png</string>
+            <key>size</key>
+            <string>{1922,1082}</string>
+            <key>smartupdate</key>
+            <string>$TexturePacker:SmartUpdate:acefb56f49d8bc3209093aeba21ae268:856e5e5691798419cf85452c1df781ac:37658dbf2e1da02d84506b1468ace8f8$</string>
+            <key>textureFileName</key>
+            <string>Act1Cutscene.png</string>
+        </dict>
+    </dict>
+</plist>

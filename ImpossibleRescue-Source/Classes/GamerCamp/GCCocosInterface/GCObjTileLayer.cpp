@@ -1,0 +1,163 @@
+////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// (C) Gamer Camp / Alex Darby 2018
+// Distributed under the MIT license - see readme.md
+////////////////////////////////////////////////////////////////////////////////////////////////////////////
+#include "GCObjTileLayer.h"
+
+#ifndef _GCCOCOSHELPERS_H_
+	#include "../GCCocosInterface/GCCocosHelpers.h"
+#endif
+
+#ifndef _GCGameLayer_H_
+	#include "IGCGameLayer.h"
+#endif
+
+#ifndef __COCOS2D_H__
+	#include "cocos2d.h"
+#endif
+
+
+//////////////////////////////////////////////////////////////////////////
+// save ourselves some typing later
+using namespace cocos2d;
+
+
+
+//////////////////////////////////////////////////////////////////////////
+// protected version to pass through id to GCObject
+//////////////////////////////////////////////////////////////////////////
+CGCObjTileLayer::CGCObjTileLayer( GCTypeID idDerivedType )
+: CGCObject	( idDerivedType )
+, m_pTMXMap	( NULL )
+{
+}
+
+
+//////////////////////////////////////////////////////////////////////////
+//
+//////////////////////////////////////////////////////////////////////////
+CGCObjTileLayer::CGCObjTileLayer()
+: CGCObject				( GetGCTypeIDOf( CGCObjTileLayer ) )
+, m_pTMXMap				( NULL )
+, m_v2InitialPosition	( Vec2( 0.0f, 0.0f ) )
+{
+}
+
+
+
+//////////////////////////////////////////////////////////////////////////
+//
+//////////////////////////////////////////////////////////////////////////
+//virtual 
+CGCObjTileLayer::~CGCObjTileLayer()
+{
+	CCAssert( !m_pTMXMap,	"CGCObjTileLayer::~CGCObjTileLayer - it appears "
+							"you have not called CGCObjTileLayer::DestroyTileLayer" );
+}
+
+
+
+//////////////////////////////////////////////////////////////////////////
+//
+// N.B. GCCocosHelpers::CreateSpriteFromPlist() returns an autoreleased 
+// CCsprite, so we must retain() it to prevent it from being cleaned up
+//////////////////////////////////////////////////////////////////////////
+void CGCObjTileLayer::CreateTileLayer( const char* pszTMXFile )
+{
+	m_pTMXMap = CCTMXTiledMap::create( pszTMXFile );
+	m_pTMXMap->retain();
+}
+
+
+
+//////////////////////////////////////////////////////////////////////////
+//
+//////////////////////////////////////////////////////////////////////////
+void CGCObjTileLayer::DestroyTileLayer()
+{
+	// this macro calls release on m_pTMXMap then sets it to NULL
+	CC_SAFE_RELEASE_NULL( m_pTMXMap );
+}
+
+
+
+//////////////////////////////////////////////////////////////////////////
+//
+//////////////////////////////////////////////////////////////////////////
+void CGCObjTileLayer::SetParent( cocos2d::Node* pNewParent )
+{
+	CCAssert( m_pTMXMap, "m_pTMXMap is NULL. Have you called CreateTileLayer?" );
+	CCAssert( pNewParent, "pNewParent is NULL" );
+	// n.b. this does nothing if the CCNode derived type has no parent...
+	m_pTMXMap->removeFromParentAndCleanup( false );
+	pNewParent->addChild( m_pTMXMap );
+}
+
+
+
+//////////////////////////////////////////////////////////////////////////
+//
+//////////////////////////////////////////////////////////////////////////
+CGCObjTileLayer::EGetObjPosErr CGCObjTileLayer::GetObjectPosition(	const char* pszObjectGroupName, 
+																	const char* pszObjectName, 
+																	Vec2&		rv2ReturnPos )
+{
+	// get the object group ...
+	TMXObjectGroup* pObjGroup = m_pTMXMap->getObjectGroup( pszObjectGroupName );
+	if( NULL == pObjGroup )
+	{
+		return EGetObjPosErr_GroupNotFound;
+	}
+
+	// ...the object data...
+	ValueMap pSpawn = pObjGroup->getObject( pszObjectName );
+	if( pSpawn.empty() )
+	{
+		return EGetObjPosErr_ObjectNotFound;
+	}
+
+	// ...get the position
+	rv2ReturnPos.x = atof( pSpawn[ "x" ].asString().c_str() );
+	rv2ReturnPos.y = atof( pSpawn[ "y" ].asString().c_str() );
+	return EGetObjPosErr_OK;
+}
+
+
+
+//////////////////////////////////////////////////////////////////////////
+// default behaviour is to add the managed sprite to the game layer 
+//////////////////////////////////////////////////////////////////////////
+//virtual 
+void CGCObjTileLayer::VOnResourceAcquire()
+{}
+
+
+
+//////////////////////////////////////////////////////////////////////////
+//
+//////////////////////////////////////////////////////////////////////////
+//virtual 
+void CGCObjTileLayer::VOnReset()
+{
+	SetPosition( m_v2InitialPosition );
+}
+
+
+
+//////////////////////////////////////////////////////////////////////////
+//
+//////////////////////////////////////////////////////////////////////////
+//virtual 
+void CGCObjTileLayer::VOnUpdate( float fTimeStep )
+{
+}
+
+
+
+//////////////////////////////////////////////////////////////////////////
+// don't need to do anything - shutting down the parent will reduce the 
+// refcount on m_pTMXMap 
+//////////////////////////////////////////////////////////////////////////
+//virtual 
+void CGCObjTileLayer::VOnResourceRelease()
+{}

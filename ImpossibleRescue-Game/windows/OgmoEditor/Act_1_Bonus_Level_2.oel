@@ -1,0 +1,38 @@
+<level width="1920" height="1080">
+  <nodes>
+    <exit_node id="0" x="1808" y="1072" class="CExitNode" shape="exit_node" PlistFile="TexturePacker/Sprites/Nodes/Nodes.plist" B2DBodyType="b2_staticBody" HasFixedRotation="True" StartFlipped="False" />
+    <turn_node id="1" x="32" y="1056" class="CTurnNode" shape="node" PlistFile="TexturePacker/Sprites/Nodes/Nodes.plist" B2DBodyType="b2_staticBody" HasFixedRotation="True" StartFlipped="False" />
+    <turn_node id="2" x="512" y="1072" class="CTurnNode" shape="node" PlistFile="TexturePacker/Sprites/Nodes/Nodes.plist" B2DBodyType="b2_staticBody" HasFixedRotation="True" StartFlipped="False" />
+    <turn_node id="3" x="1568" y="1072" class="CTurnNode" shape="node" PlistFile="TexturePacker/Sprites/Nodes/Nodes.plist" B2DBodyType="b2_staticBody" HasFixedRotation="True" StartFlipped="False" />
+    <turn_node id="4" x="1024" y="1072" class="CTurnNode" shape="node" PlistFile="TexturePacker/Sprites/Nodes/Nodes.plist" B2DBodyType="b2_staticBody" HasFixedRotation="True" StartFlipped="False" />
+    <door_left id="5" x="64" y="512" class="CGCObjDoorLeft" shape="door_left" PlistFile="TexturePacker/Sprites/Platforms/Door/Door.plist" B2DBodyType="b2_staticBody" HasFixedRotation="True" StartFlipped="False" />
+  </nodes>
+  <floor />
+  <walls />
+  <platforms>
+    <floor id="0" x="960" y="992" class="CGCObjFloor" shape="floor" PlistFile="TexturePacker/Sprites/Platforms/Floor/Floor.plist" B2DBodyType="b2_staticBody" HasFixedRotation="True" FloorStyle="level_1" />
+    <platform id="1" x="80" y="672" class="CGCObjPlatform" shape="platform" PlistFile="TexturePacker/Sprites/Platforms/Platform/Platform.plist" B2DBodyType="b2_staticBody" HasFixedRotation="True" StartFlipped="False" />
+    <platform id="2" x="256" y="672" class="CGCObjPlatform" shape="platform" PlistFile="TexturePacker/Sprites/Platforms/Platform/Platform.plist" B2DBodyType="b2_staticBody" HasFixedRotation="True" StartFlipped="False" />
+    <platform id="3" x="1840" y="672" class="CGCObjPlatform" shape="platform" PlistFile="TexturePacker/Sprites/Platforms/Platform/Platform.plist" B2DBodyType="b2_staticBody" HasFixedRotation="True" StartFlipped="False" />
+    <platform id="4" x="1664" y="672" class="CGCObjPlatform" shape="platform" PlistFile="TexturePacker/Sprites/Platforms/Platform/Platform.plist" B2DBodyType="b2_staticBody" HasFixedRotation="True" StartFlipped="False" />
+    <platform id="5" x="1840" y="320" class="CGCObjPlatform" shape="platform" PlistFile="TexturePacker/Sprites/Platforms/Platform/Platform.plist" B2DBodyType="b2_staticBody" HasFixedRotation="True" StartFlipped="False" />
+    <platform id="6" x="1664" y="320" class="CGCObjPlatform" shape="platform" PlistFile="TexturePacker/Sprites/Platforms/Platform/Platform.plist" B2DBodyType="b2_staticBody" HasFixedRotation="True" StartFlipped="False" />
+    <platform id="7" x="1488" y="320" class="CGCObjPlatform" shape="platform" PlistFile="TexturePacker/Sprites/Platforms/Platform/Platform.plist" B2DBodyType="b2_staticBody" HasFixedRotation="True" StartFlipped="False" />
+  </platforms>
+  <doors />
+  <items>
+    <door_right id="0" x="1856" y="912" class="CGCObjDoorRight" shape="door_right" PlistFile="TexturePacker/Sprites/Platforms/Door/Door.plist" B2DBodyType="b2_staticBody" HasFixedRotation="True" StartFlipped="False" />
+    <terminal_a id="1" x="1840" y="240" class="CObjTerminal" shape="terminal_a" PlistFile="TexturePacker/Sprites/Hackables/Terminals.plist" B2DBodyType="b2_staticBody" HasFixedRotation="True" StartFlipped="False" IsKeyTerminal="False" HackType="ButtonHack" ButtonHackTime="3" ButtonHackResetable="True" QTETimePerButton="1" QTENumberOfEvents="4" IsTerminator="False" IsMover="True" />
+    <terminal_a id="2" x="1840" y="592" class="CObjTerminal" shape="terminal_a" PlistFile="TexturePacker/Sprites/Hackables/Terminals.plist" B2DBodyType="b2_staticBody" HasFixedRotation="True" StartFlipped="False" IsKeyTerminal="True" HackType="ButtonHack" ButtonHackTime="3" ButtonHackResetable="True" QTETimePerButton="1" QTENumberOfEvents="4" IsTerminator="False" IsMover="False" />
+    <moving_platform id="3" x="464" y="880" class="CObjMovingPlatform" shape="platform" PlistFile="TexturePacker/Sprites/Platforms/Platform/Platform.plist" B2DBodyType="b2_kinematicBody" HasFixedRotation="True" StartFlipped="False" RequiredActivation="False" MovingTargetX="0" MovingTargetY="576" />
+    <moving_platform id="4" x="832" y="672" class="CObjMovingPlatform" shape="platform" PlistFile="TexturePacker/Sprites/Platforms/Platform/Platform.plist" B2DBodyType="b2_kinematicBody" HasFixedRotation="True" StartFlipped="False" RequiredActivation="False" MovingTargetX="0" MovingTargetY="384" />
+    <moving_platform id="5" x="1248" y="320" class="CObjMovingPlatform" shape="platform" PlistFile="TexturePacker/Sprites/Platforms/Platform/Platform.plist" B2DBodyType="b2_kinematicBody" HasFixedRotation="True" StartFlipped="False" RequiredActivation="True" MovingTargetX="0" MovingTargetY="0" />
+  </items>
+  <enemies>
+    <enemy_r1 id="0" x="176" y="992" class="CGCEnemyR1" shape="enemy_r1" PlistFile="TexturePacker/Sprites/Enemies/Enemies.plist" B2DBodyType="b2_staticBody" HasFixedRotation="True" StartFlipped="False" ActivateMovement="True" AttackRange="0" />
+    <enemy_r1 id="1" x="1152" y="992" class="CGCEnemyR1" shape="enemy_r1" PlistFile="TexturePacker/Sprites/Enemies/Enemies.plist" B2DBodyType="b2_staticBody" HasFixedRotation="True" StartFlipped="False" ActivateMovement="True" AttackRange="0" />
+  </enemies>
+  <player>
+    <spawn_point id="0" x="176" y="592" class="CGCObjPlayer" shape="danielle" PlistFile="TexturePacker/Sprites/Characters/Player/Danielle/Danielle.plist" B2DBodyType="b2_dynamicBody" HasFixedRotation="True" StartFlipped="False" />
+  </player>
+</level>

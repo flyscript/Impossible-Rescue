@@ -1,0 +1,58 @@
+<level width="1920" height="1080">
+  <nodes>
+    <turn_node id="0" x="704" y="688" class="CTurnNode" shape="node" PlistFile="TexturePacker/Sprites/Nodes/Nodes.plist" B2DBodyType="b2_staticBody" HasFixedRotation="True" StartFlipped="False" />
+    <turn_node id="1" x="1584" y="688" class="CTurnNode" shape="node" PlistFile="TexturePacker/Sprites/Nodes/Nodes.plist" B2DBodyType="b2_staticBody" HasFixedRotation="True" StartFlipped="False" />
+    <turn_node id="2" x="1664" y="336" class="CTurnNode" shape="node" PlistFile="TexturePacker/Sprites/Nodes/Nodes.plist" B2DBodyType="b2_staticBody" HasFixedRotation="True" StartFlipped="False" />
+    <turn_node id="3" x="944" y="336" class="CTurnNode" shape="node" PlistFile="TexturePacker/Sprites/Nodes/Nodes.plist" B2DBodyType="b2_staticBody" HasFixedRotation="True" StartFlipped="False" />
+    <exit_node id="7" x="1856" y="1040" class="CExitNode" shape="exit_node" PlistFile="TexturePacker/Sprites/Nodes/Nodes.plist" B2DBodyType="b2_staticBody" HasFixedRotation="True" StartFlipped="False" />
+    <turn_node id="8" x="704" y="336" class="CTurnNode" shape="node" PlistFile="TexturePacker/Sprites/Nodes/Nodes.plist" B2DBodyType="b2_staticBody" HasFixedRotation="True" StartFlipped="False" />
+    <turn_node id="9" x="96" y="336" class="CTurnNode" shape="node" PlistFile="TexturePacker/Sprites/Nodes/Nodes.plist" B2DBodyType="b2_staticBody" HasFixedRotation="True" StartFlipped="False" />
+    <turn_node id="10" x="400" y="1040" class="CTurnNode" shape="node" PlistFile="TexturePacker/Sprites/Nodes/Nodes.plist" B2DBodyType="b2_staticBody" HasFixedRotation="True" StartFlipped="False" />
+    <turn_node id="11" x="80" y="1040" class="CTurnNode" shape="node" PlistFile="TexturePacker/Sprites/Nodes/Nodes.plist" B2DBodyType="b2_staticBody" HasFixedRotation="True" StartFlipped="False" />
+    <exit_node id="6" x="1888" y="1040" class="CExitNode" shape="exit_node" PlistFile="TexturePacker/Sprites/Nodes/Nodes.plist" B2DBodyType="b2_staticBody" HasFixedRotation="True" StartFlipped="False" />
+  </nodes>
+  <floor>
+    <floor id="3" x="960" y="1001" class="CObjFloor" shape="floor" PlistFile="TexturePacker/Sprites/Platforms/Floor/Floor.plist" B2DBodyType="b2_staticBody" HasFixedRotation="True" FloorStyle="level_3" />
+  </floor>
+  <walls>
+    <wall_left id="0" x="27" y="540" class="CObjWall" shape="wall_left" PlistFile="TexturePacker/Sprites/Platforms/Wall/Wall.plist" B2DBodyType="b2_staticBody" HasFixedRotation="False" StartFlipped="False" WallStyle="Wall_Level_3_Left" />
+    <wall_right id="1" x="1892" y="539" class="CObjWall" shape="wall_right" PlistFile="TexturePacker/Sprites/Platforms/Wall/Wall.plist" B2DBodyType="b2_staticBody" HasFixedRotation="False" StartFlipped="False" WallStyle="Wall_Level_3_Right" />
+  </walls>
+  <platforms>
+    <crumbling_platform id="4" x="560" y="728" class="CObjCrumblingPlatform" shape="crumbling_platform" PlistFile="TexturePacker/Sprites/Platforms/CrumblingPlatform/CrumblingPlatform.plist" B2DBodyType="b2_staticBody" HasFixedRotation="True" StartFlipped="False" />
+    <moving_platform id="1" x="560" y="976" class="CObjMovingPlatform" shape="platform" PlistFile="TexturePacker/Sprites/Platforms/Platform/Platform.plist" B2DBodyType="b2_kinematicBody" HasFixedRotation="True" StartFlipped="False" RequiredActivation="True" MovingTargetX="0" MovingTargetY="100" />
+    <perspective_platform_high id="22" x="144" y="336" class="CObjPerspectivePlatform" shape="perspective_level_high" PlistFile="TexturePacker/Sprites/Platforms/PerspectivePlatform/PerspectivePlatform.plist" B2DBodyType="b2_staticBody" HasFixedRotation="False" StartFlipped="False" PlatformLocation="High" PlatformStyle="Level_3_Platform" />
+    <perspective_platform_high id="23" x="432" y="336" class="CObjPerspectivePlatform" shape="perspective_level_high" PlistFile="TexturePacker/Sprites/Platforms/PerspectivePlatform/PerspectivePlatform.plist" B2DBodyType="b2_staticBody" HasFixedRotation="False" StartFlipped="False" PlatformLocation="High" PlatformStyle="Level_3_Platform" />
+    <perspective_platform_high id="25" x="704" y="336" class="CObjPerspectivePlatform" shape="perspective_level_high" PlistFile="TexturePacker/Sprites/Platforms/PerspectivePlatform/PerspectivePlatform.plist" B2DBodyType="b2_staticBody" HasFixedRotation="False" StartFlipped="False" PlatformLocation="High" PlatformStyle="Level_3_Platform" />
+    <perspective_platform_high id="26" x="992" y="336" class="CObjPerspectivePlatform" shape="perspective_level_high" PlistFile="TexturePacker/Sprites/Platforms/PerspectivePlatform/PerspectivePlatform.plist" B2DBodyType="b2_staticBody" HasFixedRotation="False" StartFlipped="False" PlatformLocation="High" PlatformStyle="Level_3_Platform" />
+    <perspective_platform_high id="27" x="1280" y="336" class="CObjPerspectivePlatform" shape="perspective_level_high" PlistFile="TexturePacker/Sprites/Platforms/PerspectivePlatform/PerspectivePlatform.plist" B2DBodyType="b2_staticBody" HasFixedRotation="False" StartFlipped="False" PlatformLocation="High" PlatformStyle="Level_3_Platform" />
+    <perspective_platform_high id="28" x="1568" y="336" class="CObjPerspectivePlatform" shape="perspective_level_high" PlistFile="TexturePacker/Sprites/Platforms/PerspectivePlatform/PerspectivePlatform.plist" B2DBodyType="b2_staticBody" HasFixedRotation="False" StartFlipped="False" PlatformLocation="High" PlatformStyle="Level_3_Platform" />
+    <perspective_platform_low id="29" x="144" y="688" class="CObjPerspectivePlatform" shape="perspective_level_low" PlistFile="TexturePacker/Sprites/Platforms/PerspectivePlatform/PerspectivePlatform.plist" B2DBodyType="b2_staticBody" HasFixedRotation="False" StartFlipped="False" PlatformLocation="Low" PlatformStyle="Level_3_Platform" />
+    <perspective_platform_low id="31" x="784" y="688" class="CObjPerspectivePlatform" shape="perspective_level_low" PlistFile="TexturePacker/Sprites/Platforms/PerspectivePlatform/PerspectivePlatform.plist" B2DBodyType="b2_staticBody" HasFixedRotation="False" StartFlipped="False" PlatformLocation="Low" PlatformStyle="Level_3_Platform" />
+    <perspective_platform_low id="32" x="1072" y="688" class="CObjPerspectivePlatform" shape="perspective_level_low" PlistFile="TexturePacker/Sprites/Platforms/PerspectivePlatform/PerspectivePlatform.plist" B2DBodyType="b2_staticBody" HasFixedRotation="False" StartFlipped="False" PlatformLocation="Low" PlatformStyle="Level_3_Platform" />
+    <perspective_platform_low id="33" x="1360" y="688" class="CObjPerspectivePlatform" shape="perspective_level_low" PlistFile="TexturePacker/Sprites/Platforms/PerspectivePlatform/PerspectivePlatform.plist" B2DBodyType="b2_staticBody" HasFixedRotation="False" StartFlipped="False" PlatformLocation="Low" PlatformStyle="Level_3_Platform" />
+    <perspective_platform_low id="11" x="1648" y="688" class="CObjPerspectivePlatform" shape="perspective_level_low" PlistFile="TexturePacker/Sprites/Platforms/PerspectivePlatform/PerspectivePlatform.plist" B2DBodyType="b2_staticBody" HasFixedRotation="False" StartFlipped="False" PlatformLocation="Low" PlatformStyle="Level_3_Platform" />
+    <perspective_platform_low id="34" x="1936" y="688" class="CObjPerspectivePlatform" shape="perspective_level_low" PlistFile="TexturePacker/Sprites/Platforms/PerspectivePlatform/PerspectivePlatform.plist" B2DBodyType="b2_staticBody" HasFixedRotation="False" StartFlipped="False" PlatformLocation="Low" PlatformStyle="Level_3_Platform" />
+    <perspective_platform_low id="24" x="1920" y="512" class="CObjPerspectivePlatform" shape="perspective_level_low" PlistFile="TexturePacker/Sprites/Platforms/PerspectivePlatform/PerspectivePlatform.plist" B2DBodyType="b2_staticBody" HasFixedRotation="False" StartFlipped="False" PlatformLocation="Low" PlatformStyle="Level_3_Platform" />
+    <perspective_platform_low id="2" x="336" y="688" class="CObjPerspectivePlatform" shape="perspective_level_low" PlistFile="TexturePacker/Sprites/Platforms/PerspectivePlatform/PerspectivePlatform.plist" B2DBodyType="b2_staticBody" HasFixedRotation="False" StartFlipped="False" PlatformLocation="Low" PlatformStyle="Level_3_Platform" />
+  </platforms>
+  <doors>
+    <door_right id="12" x="1891" y="908" class="CObjDoorRight" shape="door_right" PlistFile="TexturePacker/Sprites/Platforms/Door/Door.plist" B2DBodyType="b2_staticBody" HasFixedRotation="True" StartFlipped="False" />
+    <door_left id="5" x="32" y="544" class="CObjDoorLeft" shape="door_left" PlistFile="TexturePacker/Sprites/Platforms/Door/Door.plist" B2DBodyType="b2_staticBody" HasFixedRotation="True" StartFlipped="False" />
+  </doors>
+  <items>
+    <door_terminal id="2" x="528" y="240" class="CObjTerminal" shape="door_terminal" PlistFile="TexturePacker/Sprites/Hackables/Terminals.plist" B2DBodyType="b2_staticBody" HasFixedRotation="False" StartFlipped="False" IsKeyTerminal="True" HackType="ButtonHack" ButtonHackTime="3" ButtonHackResetable="True" QTETimePerButton="1" QTENumberOfEvents="4" TerminalType="Door_Terminal" />
+    <platform_terminal id="0" x="368" y="976" class="CObjTerminal" shape="platform_terminal" PlistFile="TexturePacker/Sprites/Hackables/Terminals.plist" B2DBodyType="b2_staticBody" HasFixedRotation="False" StartFlipped="False" IsMover="True" HackType="ButtonHack" ButtonHackTime="3" ButtonHackResetable="True" QTETimePerButton="2" QTENumberOfEvents="6" TerminalType="Platform_Terminal" />
+  </items>
+  <enemies>
+    <enemy_r1 id="0" x="1104" y="624" class="CEnemyR1" shape="enemy_r1" PlistFile="TexturePacker/Sprites/Enemies/Enemies.plist" B2DBodyType="b2_dynamicBody" HasFixedRotation="True" StartFlipped="False" ActivateMovement="True" AttackRange="0" />
+    <enemy_r1 id="1" x="1344" y="256" class="CEnemyR1" shape="enemy_r1" PlistFile="TexturePacker/Sprites/Enemies/Enemies.plist" B2DBodyType="b2_dynamicBody" HasFixedRotation="True" StartFlipped="True" ActivateMovement="True" AttackRange="0" />
+    <enemy_r1 id="2" x="224" y="256" class="CEnemyR1" shape="enemy_r1" PlistFile="TexturePacker/Sprites/Enemies/Enemies.plist" B2DBodyType="b2_dynamicBody" HasFixedRotation="True" StartFlipped="False" ActivateMovement="True" AttackRange="0" />
+    <enemy_r1 id="3" x="1000" y="995" class="CEnemyR1" shape="enemy_r1" PlistFile="TexturePacker/Sprites/Enemies/Enemies.plist" B2DBodyType="b2_dynamicBody" HasFixedRotation="True" StartFlipped="True" ActivateMovement="False" AttackRange="0" />
+    <enemy_r1 id="4" x="368" y="624" class="CEnemyR1" shape="enemy_r1" PlistFile="TexturePacker/Sprites/Enemies/Enemies.plist" B2DBodyType="b2_staticBody" HasFixedRotation="True" StartFlipped="False" ActivateMovement="False" AttackRange="0" />
+    <enemy_r1 id="5" x="208" y="976" class="CEnemyR1" shape="enemy_r1" PlistFile="TexturePacker/Sprites/Enemies/Enemies.plist" B2DBodyType="b2_staticBody" HasFixedRotation="True" StartFlipped="False" ActivateMovement="True" AttackRange="0" />
+  </enemies>
+  <player>
+    <spawn_point id="0" x="119" y="588" class="CGCObjPlayer" shape="danielle" PlistFile="TexturePacker/Sprites/Characters/Player/Danielle/Danielle.plist" B2DBodyType="b2_dynamicBody" HasFixedRotation="True" StartFlipped="True" />
+  </player>
+</level>

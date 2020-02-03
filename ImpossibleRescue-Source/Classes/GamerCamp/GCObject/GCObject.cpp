@@ -1,0 +1,36 @@
+////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// (C) Gamer Camp / Alex Darby 2018
+// Distributed under the MIT license - see readme.md
+////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+#include "GamerCamp/GCObject/GCObjectManager.h"
+#include "GamerCamp/GCObject/GCObject.h"
+#include "cocos2d/cocos/base/CCConsole.h"
+#include "cocos2d/cocos/base/ccMacros.h"
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// static initialisations
+
+DEBUG_ONLY( static int s_iCreationCount = 0 );
+
+//////////////////////////////////////////////////////////////////////////
+// protected constructor
+CGCObject::CGCObject( GCTypeID idDerivedType )
+	: m_idConcreteClass	( idDerivedType )
+{
+	DEBUG_ONLY( ++s_iCreationCount );
+	// add ourself to the object manager
+	CGCObjectManager::ObjectRegister( this );
+}
+
+
+CGCObject::~CGCObject( void )
+{
+	DEBUG_ONLY( if( --s_iCreationCount == 0 ) )
+	DEBUG_ONLY( { )
+	DEBUG_ONLY(		CCLOG( "CGCObject - all CGCObjects have been freed" ); )
+	DEBUG_ONLY( } )
+	CGCObjectManager::ObjectUnRegister( this );
+}

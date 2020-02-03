@@ -1,0 +1,25 @@
+#ifndef _SHADOWTUTORIAL_H
+#define _SHADOWTUTORIAL_H
+#include "GamerCamp/GCCocosInterface/GCObjSprite.h"
+#include "GamerCamp/GameSpecific/UI/UIAnimatedText.h"
+
+class CShadowTutorial
+{
+private:
+	// Tutorial image pointer
+	CGCObjSprite*		m_pcShadowImage;
+public:
+	//////////////////////////////////////////////////////////////////////////
+	// Constructor and Destructor
+	//////////////////////////////////////////////////////////////////////////
+	CShadowTutorial();
+	~CShadowTutorial();
+
+	//////////////////////////////////////////////////////////////////////////
+	// Accessors
+	//////////////////////////////////////////////////////////////////////////
+	void Create( int iLevel );
+	void SetVisible( bool bVisibility );
+
+};
+#endif

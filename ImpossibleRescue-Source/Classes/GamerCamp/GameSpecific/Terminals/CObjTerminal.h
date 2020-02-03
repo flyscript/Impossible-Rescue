@@ -1,0 +1,63 @@
+#ifndef _GCOBJTERMINAL_H_
+#define _GCOBJTERMINAL_H_
+
+#include "../../GCCocosInterface/GCObjSpritePhysics.h"
+#include "../../GCCocosInterface/GCFactory_ObjSpritePhysics.h"
+
+//Forward Declare
+class CHackable;
+class CButtonHack;
+class UIAnimatedBar;
+
+class CObjTerminal
+	: public CGCObjSpritePhysics
+{
+private:
+	CHackable* m_CHackableInterface;
+
+	// For animation
+	cocos2d::Action* m_pCurrentAction;
+	cocos2d::ValueMap m_pcDicPList;
+
+	// Properties
+	bool m_bIsKeyTerminal;
+	bool m_bIsTerminator;
+	bool m_bIsMover;
+	std::string m_strHackType;
+	float m_fHackTime;
+	bool m_bIsResetable;
+	float m_fTimePerButton;
+	int m_iNumberOfEvents;
+
+public:
+	//////////////////////////////////////////////////////////////////////////
+	// Constructor and Destructor
+	//////////////////////////////////////////////////////////////////////////
+	CObjTerminal();
+	virtual ~CObjTerminal();
+
+	//////////////////////////////////////////////////////////////////////////
+	// GCFactory Marcos
+	//////////////////////////////////////////////////////////////////////////
+	GCFACTORY_DECLARE_CREATABLECLASS( CObjTerminal );
+
+	//////////////////////////////////////////////////////////////////////////
+	// Virtual Methods from CGCObjSpritePhysics
+	//////////////////////////////////////////////////////////////////////////
+	virtual void VOnResourceAcquire() override;
+	virtual void VOnReset() override;
+
+	//////////////////////////////////////////////////////////////////////////
+	// Accessors
+	//////////////////////////////////////////////////////////////////////////
+	CHackable& GetHackableInterface();
+	void SetHackableInterface( CHackable* rCHackableInterface );
+
+	//////////////////////////////////////////////////////////////////////////
+	// Hack callbacks
+	//////////////////////////////////////////////////////////////////////////
+	void OnHackStarted();
+	void OnHackSucceed();
+	void OnHackFailed();
+};
+#endif

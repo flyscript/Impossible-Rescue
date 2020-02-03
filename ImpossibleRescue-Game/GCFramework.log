@@ -1,0 +1,116 @@
+﻿  AppDelegate.cpp
+  GLES-Render.cpp
+  CEventListener.cpp
+  CEventManager.cpp
+  CAudioManager.cpp
+  DataManager.cpp
+  GCController.cpp
+  GCControllerManager.cpp
+  GCObjBarrier.cpp
+  GCObjDoor.cpp
+  GCLevelManager.cpp
+  GCObjDoorLeft.cpp
+  GCObjDoorRight.cpp
+  GCEnemyB1.cpp
+  GCEnemyR1.cpp
+  GCEnemyR2.cpp
+  GCEnemyR3.cpp
+  CEnvRock.cpp
+  CQTEHack.cpp
+  GCButtonHack.cpp
+  GCHackable.cpp
+  CAmmoPickup.cpp
+  CWeaponPickup.cpp
+c:\perforce\gamercamps\pro2019\mod2\projects\work\team2\liveproject\classes\gamercamp\gamespecific\terminals\gcobjterminal.h(56): warning C4150: deletion of pointer to incomplete type 'CHackable'; no destructor called (compiling source file ..\Classes\GamerCamp\GameSpecific\Hackables\GCHackable.cpp)
+  c:\perforce\gamercamps\pro2019\mod2\projects\work\team2\liveproject\classes\gamercamp\gamespecific\terminals\gcobjterminal.h(8): note: see declaration of 'CHackable' (compiling source file ..\Classes\GamerCamp\GameSpecific\Hackables\GCHackable.cpp)
+c:\perforce\gamercamps\pro2019\mod2\projects\work\team2\liveproject\classes\gamercamp\gamespecific\player\gcobjplayer.h(202): warning C4150: deletion of pointer to incomplete type 'CObjShadow'; no destructor called (compiling source file ..\Classes\GamerCamp\GameSpecific\Enemies\R2\GCEnemyR2.cpp)
+  c:\perforce\gamercamps\pro2019\mod2\projects\work\team2\liveproject\classes\gamercamp\gamespecific\player\gcobjplayer.h(25): note: see declaration of 'CObjShadow' (compiling source file ..\Classes\GamerCamp\GameSpecific\Enemies\R2\GCEnemyR2.cpp)
+c:\perforce\gamercamps\pro2019\mod2\projects\work\team2\liveproject\classes\gamercamp\gamespecific\player\gcobjplayer.h(202): warning C4150: deletion of pointer to incomplete type 'CObjShadow'; no destructor called (compiling source file ..\Classes\GamerCamp\GameSpecific\Enemies\R3\GCEnemyR3.cpp)
+  c:\perforce\gamercamps\pro2019\mod2\projects\work\team2\liveproject\classes\gamercamp\gamespecific\player\gcobjplayer.h(25): note: see declaration of 'CObjShadow' (compiling source file ..\Classes\GamerCamp\GameSpecific\Enemies\R3\GCEnemyR3.cpp)
+c:\perforce\gamercamps\pro2019\mod2\projects\work\team2\liveproject\classes\gamercamp\gamespecific\player\gcobjplayer.h(202): warning C4150: deletion of pointer to incomplete type 'CObjShadow'; no destructor called (compiling source file ..\Classes\GamerCamp\GameSpecific\Hackables\CQTEHack.cpp)
+  c:\perforce\gamercamps\pro2019\mod2\projects\work\team2\liveproject\classes\gamercamp\gamespecific\player\gcobjplayer.h(25): note: see declaration of 'CObjShadow' (compiling source file ..\Classes\GamerCamp\GameSpecific\Hackables\CQTEHack.cpp)
+c:\perforce\gamercamps\pro2019\mod2\projects\work\team2\liveproject\classes\gamercamp\gamespecific\terminals\gcobjterminal.h(56): warning C4150: deletion of pointer to incomplete type 'CHackable'; no destructor called (compiling source file ..\Classes\GamerCamp\GameSpecific\Hackables\CQTEHack.cpp)
+  c:\perforce\gamercamps\pro2019\mod2\projects\work\team2\liveproject\classes\gamercamp\gamespecific\terminals\gcobjterminal.h(8): note: see declaration of 'CHackable' (compiling source file ..\Classes\GamerCamp\GameSpecific\Hackables\CQTEHack.cpp)
+c:\perforce\gamercamps\pro2019\mod2\projects\work\team2\liveproject\classes\gamercamp\gamespecific\terminals\gcobjterminal.h(56): warning C4150: deletion of pointer to incomplete type 'CHackable'; no destructor called (compiling source file ..\Classes\GamerCamp\GameSpecific\Hackables\GCButtonHack.cpp)
+  c:\perforce\gamercamps\pro2019\mod2\projects\work\team2\liveproject\classes\gamercamp\gamespecific\terminals\gcobjterminal.h(8): note: see declaration of 'CHackable' (compiling source file ..\Classes\GamerCamp\GameSpecific\Hackables\GCButtonHack.cpp)
+  GCObjGroupItem.cpp
+  GCObjItem.cpp
+  GCCutscene.cpp
+  GCLevel1.cpp
+  GCLevel2.cpp
+  GCLevel3.cpp
+  GCLevel4.cpp
+  GCCutsceneAct2.cpp
+  GCCreditScene.cpp
+  GCOutroScene3.cpp
+  CLevelBase.cpp
+  GCGameOver.cpp
+  GCAudioSetting.cpp
+  GCControlsMenu.cpp
+  GCGameLogoSplash.cpp
+  GCMainCutscene.cpp
+c:\perforce\gamercamps\pro2019\mod2\projects\work\team2\liveproject\classes\gamercamp\gamespecific\player\gcobjplayer.h(202): warning C4150: deletion of pointer to incomplete type 'CObjShadow'; no destructor called (compiling source file ..\Classes\GamerCamp\GameSpecific\Levels\CLevelBase.cpp)
+  c:\perforce\gamercamps\pro2019\mod2\projects\work\team2\liveproject\classes\gamercamp\gamespecific\player\gcobjplayer.h(25): note: see declaration of 'CObjShadow' (compiling source file ..\Classes\GamerCamp\GameSpecific\Levels\CLevelBase.cpp)
+c:\perforce\gamercamps\pro2019\mod2\projects\work\team2\liveproject\classes\gamercamp\gamespecific\terminals\gcobjterminal.h(56): warning C4150: deletion of pointer to incomplete type 'CHackable'; no destructor called (compiling source file ..\Classes\GamerCamp\GameSpecific\Levels\CLevelBase.cpp)
+  c:\perforce\gamercamps\pro2019\mod2\projects\work\team2\liveproject\classes\gamercamp\gamespecific\terminals\gcobjterminal.h(8): note: see declaration of 'CHackable' (compiling source file ..\Classes\GamerCamp\GameSpecific\Levels\CLevelBase.cpp)
+c:\perforce\gamercamps\pro2019\mod2\projects\work\team2\liveproject\classes\gamercamp\gamespecific\levels\clevelbase.cpp(39): warning C4305: 'initializing': truncation from 'int' to 'f32'
+  GCMainMenu.cpp
+  GCPauseMenu.cpp
+  GCSettingsMenu.cpp
+  CExitNode.cpp
+  CJumpNode.cpp
+  CTurnNode.cpp
+  CObjCrumblingPlatform.cpp
+  CObjMovingPlatform.cpp
+  GCObjFloor.cpp
+  GCObjGroupPlatform.cpp
+  GCObjPerspectivePlatform.cpp
+  GCObjPlatform.cpp
+  GCObjWall.cpp
+  CObjShadow.cpp
+  GCObjPlayer.cpp
+  GCObjGroupProjectile.cpp
+c:\perforce\gamercamps\pro2019\mod2\projects\work\team2\liveproject\classes\gamercamp\gamespecific\platforms\gcobjfloor.cpp(6): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+c:\perforce\gamercamps\pro2019\mod2\projects\work\team2\liveproject\classes\gamercamp\gamespecific\platforms\gcobjperspectiveplatform.cpp(6): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+c:\perforce\gamercamps\pro2019\mod2\projects\work\team2\liveproject\classes\gamercamp\gamespecific\player\gcobjplayer.h(202): warning C4150: deletion of pointer to incomplete type 'CObjShadow'; no destructor called (compiling source file ..\Classes\GamerCamp\GameSpecific\Player\CObjShadow.cpp)
+  c:\perforce\gamercamps\pro2019\mod2\projects\work\team2\liveproject\classes\gamercamp\gamespecific\player\gcobjplayer.h(25): note: see declaration of 'CObjShadow' (compiling source file ..\Classes\GamerCamp\GameSpecific\Player\CObjShadow.cpp)
+c:\perforce\gamercamps\pro2019\mod2\projects\work\team2\liveproject\classes\gamercamp\gamespecific\platforms\gcobjwall.cpp(6): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+c:\perforce\gamercamps\pro2019\mod2\projects\work\team2\liveproject\classes\gamercamp\gamespecific\terminals\gcobjterminal.h(56): warning C4150: deletion of pointer to incomplete type 'CHackable'; no destructor called (compiling source file ..\Classes\GamerCamp\GameSpecific\Player\GCObjPlayer.cpp)
+  c:\perforce\gamercamps\pro2019\mod2\projects\work\team2\liveproject\classes\gamercamp\gamespecific\terminals\gcobjterminal.h(8): note: see declaration of 'CHackable' (compiling source file ..\Classes\GamerCamp\GameSpecific\Player\GCObjPlayer.cpp)
+c:\perforce\gamercamps\pro2019\mod2\projects\work\team2\liveproject\classes\gamercamp\gamespecific\player\gcobjplayer.h(202): warning C4150: deletion of pointer to incomplete type 'CObjShadow'; no destructor called (compiling source file ..\Classes\GamerCamp\GameSpecific\Player\GCObjPlayer.cpp)
+  c:\perforce\gamercamps\pro2019\mod2\projects\work\team2\liveproject\classes\gamercamp\gamespecific\player\gcobjplayer.h(25): note: see declaration of 'CObjShadow' (compiling source file ..\Classes\GamerCamp\GameSpecific\Player\GCObjPlayer.cpp)
+c:\perforce\gamercamps\pro2019\mod2\projects\work\team2\liveproject\classes\gamercamp\gamespecific\projectiles\gcobjgroupprojectile.cpp(75): warning C4018: '<': signed/unsigned mismatch
+  GCObjProjectile.cpp
+  GCShadowTutorial.cpp
+  GCObjTerminal.cpp
+  UIAnimatedBar.cpp
+  UIAnimatedText.cpp
+  GB2ShapeCache-x.cpp
+  GCCallFuncStatic.cpp
+  GCCocosHelpers.cpp
+c:\perforce\gamercamps\pro2019\mod2\projects\work\team2\liveproject\classes\gamercamp\gamespecific\terminals\gcobjterminal.h(56): warning C4150: deletion of pointer to incomplete type 'CHackable'; no destructor called (compiling source file ..\Classes\GamerCamp\GameSpecific\Terminals\GCObjTerminal.cpp)
+  c:\perforce\gamercamps\pro2019\mod2\projects\work\team2\liveproject\classes\gamercamp\gamespecific\terminals\gcobjterminal.h(8): note: see declaration of 'CHackable' (compiling source file ..\Classes\GamerCamp\GameSpecific\Terminals\GCObjTerminal.cpp)
+  GCCollisionManager.cpp
+c:\perforce\gamercamps\pro2019\mod2\projects\work\team2\liveproject\classes\gamercamp\gamespecific\ui\uianimatedbar.cpp(3): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+c:\perforce\gamercamps\pro2019\mod2\projects\work\team2\liveproject\classes\gamercamp\gamespecific\ui\uianimatedtext.cpp(2): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  GCFactory_ObjSpritePhysics.cpp
+  GCObjSprite.cpp
+  GCObjSpritePhysics.cpp
+  GCObjTileLayer.cpp
+  IGCGameLayer.cpp
+  GCLevelLoader_Ogmo.cpp
+  GCObject.cpp
+  GCObjectGroup.cpp
+  GCObjectManager.cpp
+  GCObjGroupDefault.cpp
+  CInputKeyboard.cpp
+  GCKeyboardManager.cpp
+  MenuScene.cpp
+  main.cpp
+     Creating library C:\Perforce\GamerCamps\Pro2019\Mod2\Projects\Work\Team2\LiveProject\proj.win32\Release.win32\GCFramework.lib and object C:\Perforce\GamerCamps\Pro2019\Mod2\Projects\Work\Team2\LiveProject\proj.win32\Release.win32\GCFramework.exp
+  Generating code
+  All 5451 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  GCFramework.vcxproj -> C:\Perforce\GamerCamps\Pro2019\Mod2\Projects\Work\Team2\LiveProject\proj.win32\Release.win32\GCFramework.exe
+  Performing Custom Build Step
+  0 File(s) copied

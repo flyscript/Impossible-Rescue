@@ -1,0 +1,611 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\GamerCamp">
+      <UniqueIdentifier>{81cc8b48-3688-4688-af29-f1aebdbcac2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\GamerCamp\Collections">
+      <UniqueIdentifier>{0e12a05d-22b1-44ea-96d7-a3015a30ccf8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\GamerCamp\Core">
+      <UniqueIdentifier>{6d661b2d-a9b4-4198-bf7f-a404da3e57a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\GamerCamp\GameSpecific">
+      <UniqueIdentifier>{202d3a03-d50a-4b38-803e-c61775ab3954}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\GamerCamp\GCCocosInterface">
+      <UniqueIdentifier>{d08f4a1c-6e58-450f-babf-b4f976bbe0a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\GamerCamp\GCObject">
+      <UniqueIdentifier>{f67bb81e-4304-4866-ab55-4023c01eba1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\GamerCamp\Win32Input">
+      <UniqueIdentifier>{0f44a0f2-b07e-46d3-95be-e93d85af8987}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\GamerCamp\DebugTools">
+      <UniqueIdentifier>{8f836169-55b7-4709-9e11-c570622c69e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\GamerCamp\GameSpecific\Items">
+      <UniqueIdentifier>{98403ebe-f7d3-414c-bcdd-011560ed3ce8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\GamerCamp\GameSpecific\Player">
+      <UniqueIdentifier>{09e54667-f55a-4a91-850b-04b58911397c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\GamerCamp\GameSpecific\Platforms">
+      <UniqueIdentifier>{b08a1995-8545-4a2d-9387-7efa6dc69686}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\GamerCamp\GameController">
+      <UniqueIdentifier>{4ae41667-3df5-4816-b3c8-f6aa92570597}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\GamerCamp\GCCocosInterface\LevelLoader">
+      <UniqueIdentifier>{dc3fe9f1-371d-46a8-98ad-a1216f6a7390}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\GamerCamp\GameSpecific\Nodes">
+      <UniqueIdentifier>{6859afe0-0100-4324-a772-c8855221c4e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\GamerCamp\GameSpecific\Levels">
+      <UniqueIdentifier>{b757a775-7270-42ad-82fd-765c3ba98758}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\GamerCamp\GameSpecific\Enemies">
+      <UniqueIdentifier>{7ec7696d-6567-4fc1-8f27-3a77a1c0abb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\GamerCamp\GameSpecific\Terminals">
+      <UniqueIdentifier>{62bfa2cd-085c-4cb7-b00f-ef0743b2e0d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\GamerCamp\GameSpecific\Levels\Act_1">
+      <UniqueIdentifier>{a457adc7-70fb-4cae-b039-06ac2ab24ed7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\GamerCamp\GameSpecific\Levels\Act_2">
+      <UniqueIdentifier>{1cd5b731-88cc-45c8-b40f-cd84dc6e3725}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\GamerCamp\GameSpecific\Levels\Act_3">
+      <UniqueIdentifier>{46129d1d-ab31-428f-a030-66a6d19cf048}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\GamerCamp\GameController\DataPersistence">
+      <UniqueIdentifier>{151888d8-8075-4d84-9764-d7d9b3a23017}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\GamerCamp\GameSpecific\Enemies\R1">
+      <UniqueIdentifier>{3951d0f0-3dd8-4e89-a451-19160a9b2102}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\GamerCamp\GameSpecific\Enemies\R2">
+      <UniqueIdentifier>{c5b47ea7-9c07-4c75-85bf-d3716c5b3eeb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\GamerCamp\GameSpecific\Enemies\R3">
+      <UniqueIdentifier>{e9f78a77-2668-4cc8-b8ee-70b7eb68bfbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\GamerCamp\GameSpecific\Enemies\B1">
+      <UniqueIdentifier>{a4862035-f1e0-4bfe-a783-6b080bbc4266}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Helper">
+      <UniqueIdentifier>{54c76255-5495-436c-8c3d-cd871d9b47b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\GamerCamp\GameSpecific\Door">
+      <UniqueIdentifier>{d16a1aab-9fa7-43c5-b1e7-cc275c88fb70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\GamerCamp\GameSpecific\Projectiles">
+      <UniqueIdentifier>{0d31bfe7-7b8a-4953-bb02-50ebc22f4a4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\GamerCamp\GameSpecific\UI">
+      <UniqueIdentifier>{4e003dd7-f528-45ee-8179-7d3133465cbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\GamerCamp\GameSpecific\Hackables">
+      <UniqueIdentifier>{0b323c5f-5fc0-4254-8af3-02a62f6af559}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\GamerCamp\GameController\AudioManager">
+      <UniqueIdentifier>{a72a6924-8e56-48b7-9784-21841ba4ee4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\GamerCamp\GameSpecific\Levels\Menu">
+      <UniqueIdentifier>{0a487a5f-da26-42e9-bf59-ed7e57e7cefc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\GamerCamp\GameSpecific\Barrier">
+      <UniqueIdentifier>{dcf571be-a657-41c9-893e-fa1dae774f67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\GamerCamp\EventManager">
+      <UniqueIdentifier>{1d1012da-e8e9-454c-9799-f34ae9e5272d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\GamerCamp\GameSpecific\ShadowTutorial">
+      <UniqueIdentifier>{581330e9-fc51-49c5-b26a-43641711a056}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\GamerCamp\GameSpecific\Environments">
+      <UniqueIdentifier>{fb9c387e-e97d-40b9-957e-4013c2df16e7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MenuScene.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GamerCamp\Debug\GLES-Render.cpp">
+      <Filter>Classes\GamerCamp\DebugTools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GamerCamp\GameSpecific\Items\GCObjGroupItem.cpp">
+      <Filter>Classes\GamerCamp\GameSpecific\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GamerCamp\GameSpecific\Items\GCObjItem.cpp">
+      <Filter>Classes\GamerCamp\GameSpecific\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GamerCamp\GameSpecific\Platforms\GCObjGroupPlatform.cpp">
+      <Filter>Classes\GamerCamp\GameSpecific\Platforms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GamerCamp\GameSpecific\Platforms\GCObjPlatform.cpp">
+      <Filter>Classes\GamerCamp\GameSpecific\Platforms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GamerCamp\GameSpecific\Player\GCObjPlayer.cpp">
+      <Filter>Classes\GamerCamp\GameSpecific\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GamerCamp\GCCocosInterface\GB2ShapeCache-x.cpp">
+      <Filter>Classes\GamerCamp\GCCocosInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GamerCamp\GCCocosInterface\GCCallFuncStatic.cpp">
+      <Filter>Classes\GamerCamp\GCCocosInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GamerCamp\GCCocosInterface\GCCocosHelpers.cpp">
+      <Filter>Classes\GamerCamp\GCCocosInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GamerCamp\GCCocosInterface\GCObjSprite.cpp">
+      <Filter>Classes\GamerCamp\GCCocosInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GamerCamp\GCCocosInterface\GCObjSpritePhysics.cpp">
+      <Filter>Classes\GamerCamp\GCCocosInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GamerCamp\GCCocosInterface\GCObjTileLayer.cpp">
+      <Filter>Classes\GamerCamp\GCCocosInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GamerCamp\GCCocosInterface\IGCGameLayer.cpp">
+      <Filter>Classes\GamerCamp\GCCocosInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GamerCamp\GCObject\GCObject.cpp">
+      <Filter>Classes\GamerCamp\GCObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GamerCamp\GCObject\GCObjectGroup.cpp">
+      <Filter>Classes\GamerCamp\GCObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GamerCamp\GCObject\GCObjectManager.cpp">
+      <Filter>Classes\GamerCamp\GCObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GamerCamp\GCObject\GCObjGroupDefault.cpp">
+      <Filter>Classes\GamerCamp\GCObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GamerCamp\Win32Input\GCKeyboardManager.cpp">
+      <Filter>Classes\GamerCamp\Win32Input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GamerCamp\Win32Input\CInputKeyboard.cpp">
+      <Filter>Classes\GamerCamp\Win32Input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GamerCamp\GameController\GCControllerManager.cpp">
+      <Filter>Classes\GamerCamp\GameController</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GamerCamp\GameController\GCController.cpp">
+      <Filter>Classes\GamerCamp\GameController</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GamerCamp\GCCocosInterface\GCCollisionManager.cpp">
+      <Filter>Classes\GamerCamp\GCCocosInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GamerCamp\GCCocosInterface\GCFactory_ObjSpritePhysics.cpp">
+      <Filter>Classes\GamerCamp\GCCocosInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GamerCamp\GCCocosInterface\LevelLoader\GCLevelLoader_Ogmo.cpp">
+      <Filter>Classes\GamerCamp\GCCocosInterface\LevelLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GamerCamp\GameSpecific\Nodes\CTurnNode.cpp">
+      <Filter>Classes\GamerCamp\GameSpecific\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GamerCamp\GameSpecific\Nodes\CJumpNode.cpp">
+      <Filter>Classes\GamerCamp\GameSpecific\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GamerCamp\GameSpecific\Projectiles\GCObjGroupProjectile.cpp">
+      <Filter>Classes\GamerCamp\GameSpecific\Projectiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GamerCamp\GameSpecific\Projectiles\GCObjProjectile.cpp">
+      <Filter>Classes\GamerCamp\GameSpecific\Projectiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GamerCamp\GameSpecific\UI\UIAnimatedBar.cpp">
+      <Filter>Classes\GamerCamp\GameSpecific\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GamerCamp\GameSpecific\UI\UIAnimatedText.cpp">
+      <Filter>Classes\GamerCamp\GameSpecific\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GamerCamp\GameController\AudioManager\CAudioManager.cpp">
+      <Filter>Classes\GamerCamp\GameController\AudioManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GamerCamp\GameSpecific\Nodes\CExitNode.cpp">
+      <Filter>Classes\GamerCamp\GameSpecific\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GamerCamp\GameSpecific\Player\CObjShadow.cpp">
+      <Filter>Classes\GamerCamp\GameSpecific\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GamerCamp\GameSpecific\Platforms\CObjCrumblingPlatform.cpp">
+      <Filter>Classes\GamerCamp\GameSpecific\Platforms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GamerCamp\GameSpecific\Platforms\CObjMovingPlatform.cpp">
+      <Filter>Classes\GamerCamp\GameSpecific\Platforms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GamerCamp\GameSpecific\Hackables\CQTEHack.cpp">
+      <Filter>Classes\GamerCamp\GameSpecific\Hackables</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GamerCamp\GameSpecific\Levels\CLevelBase.cpp">
+      <Filter>Classes\GamerCamp\GameSpecific\Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GamerCamp\EventManager\CEventManager.cpp">
+      <Filter>Classes\GamerCamp\EventManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GamerCamp\EventManager\CEventListener.cpp">
+      <Filter>Classes\GamerCamp\EventManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GamerCamp\GameSpecific\Items\CAmmoPickup.cpp">
+      <Filter>Classes\GamerCamp\GameSpecific\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GamerCamp\GameSpecific\Items\CWeaponPickup.cpp">
+      <Filter>Classes\GamerCamp\GameSpecific\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GamerCamp\GameSpecific\Environments\CEnvRock.cpp">
+      <Filter>Classes\GamerCamp\GameSpecific\Environments</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GamerCamp\GameSpecific\Levels\CGameOver.cpp">
+      <Filter>Classes\GamerCamp\GameSpecific\Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GamerCamp\GameController\DataPersistence\CDataManager.cpp">
+      <Filter>Classes\GamerCamp\GameController\DataPersistence</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GamerCamp\GameSpecific\Barrier\CObjBarrier.cpp">
+      <Filter>Classes\GamerCamp\GameSpecific\Barrier</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GamerCamp\GameSpecific\Door\CObjDoor.cpp">
+      <Filter>Classes\GamerCamp\GameSpecific\Door</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GamerCamp\GameSpecific\Door\CObjDoorLeft.cpp">
+      <Filter>Classes\GamerCamp\GameSpecific\Door</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GamerCamp\GameSpecific\Door\CObjDoorRight.cpp">
+      <Filter>Classes\GamerCamp\GameSpecific\Door</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GamerCamp\GameSpecific\Enemies\B1\CEnemyB1.cpp">
+      <Filter>Classes\GamerCamp\GameSpecific\Enemies\B1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GamerCamp\GameSpecific\Enemies\R1\CEnemyR1.cpp">
+      <Filter>Classes\GamerCamp\GameSpecific\Enemies\R1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GamerCamp\GameSpecific\Enemies\R2\CEnemyR2.cpp">
+      <Filter>Classes\GamerCamp\GameSpecific\Enemies\R2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GamerCamp\GameSpecific\Enemies\R3\CEnemyR3.cpp">
+      <Filter>Classes\GamerCamp\GameSpecific\Enemies\R3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GamerCamp\GameSpecific\Hackables\CButtonHack.cpp">
+      <Filter>Classes\GamerCamp\GameSpecific\Hackables</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GamerCamp\GameSpecific\Hackables\CHackable.cpp">
+      <Filter>Classes\GamerCamp\GameSpecific\Hackables</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GamerCamp\GameSpecific\Levels\Act_1\CCutscene.cpp">
+      <Filter>Classes\GamerCamp\GameSpecific\Levels\Act_1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GamerCamp\GameSpecific\Levels\Act_1\CLevel1.cpp">
+      <Filter>Classes\GamerCamp\GameSpecific\Levels\Act_1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GamerCamp\GameSpecific\Levels\Act_1\CLevel2.cpp">
+      <Filter>Classes\GamerCamp\GameSpecific\Levels\Act_1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GamerCamp\GameSpecific\Levels\Act_1\CLevel3.cpp">
+      <Filter>Classes\GamerCamp\GameSpecific\Levels\Act_1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GamerCamp\GameSpecific\Levels\Act_1\CLevel4.cpp">
+      <Filter>Classes\GamerCamp\GameSpecific\Levels\Act_1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GamerCamp\GameSpecific\Levels\Act_2\CCutsceneAct2.cpp">
+      <Filter>Classes\GamerCamp\GameSpecific\Levels\Act_2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GamerCamp\GameSpecific\Levels\Act_3\CCreditScene.cpp">
+      <Filter>Classes\GamerCamp\GameSpecific\Levels\Act_3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GamerCamp\GameSpecific\Levels\Act_3\COutroScene3.cpp">
+      <Filter>Classes\GamerCamp\GameSpecific\Levels\Act_3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GamerCamp\GameSpecific\Levels\Menu\CAudioSetting.cpp">
+      <Filter>Classes\GamerCamp\GameSpecific\Levels\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GamerCamp\GameSpecific\Levels\Menu\CControlsMenu.cpp">
+      <Filter>Classes\GamerCamp\GameSpecific\Levels\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GamerCamp\GameSpecific\Levels\Menu\CGameLogoSplash.cpp">
+      <Filter>Classes\GamerCamp\GameSpecific\Levels\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GamerCamp\GameSpecific\Levels\Menu\CMainCutscene.cpp">
+      <Filter>Classes\GamerCamp\GameSpecific\Levels\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GamerCamp\GameSpecific\Levels\Menu\CMainMenu.cpp">
+      <Filter>Classes\GamerCamp\GameSpecific\Levels\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GamerCamp\GameSpecific\Levels\Menu\CPauseMenu.cpp">
+      <Filter>Classes\GamerCamp\GameSpecific\Levels\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GamerCamp\GameSpecific\Levels\Menu\CSettingsMenu.cpp">
+      <Filter>Classes\GamerCamp\GameSpecific\Levels\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GamerCamp\GameSpecific\Platforms\CObjFloor.cpp">
+      <Filter>Classes\GamerCamp\GameSpecific\Platforms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GamerCamp\GameSpecific\Platforms\CObjPerspectivePlatform.cpp">
+      <Filter>Classes\GamerCamp\GameSpecific\Platforms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GamerCamp\GameSpecific\Platforms\CObjWall.cpp">
+      <Filter>Classes\GamerCamp\GameSpecific\Platforms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GamerCamp\GameSpecific\ShadowTutorial\CShadowTutorial.cpp">
+      <Filter>Classes\GamerCamp\GameSpecific\ShadowTutorial</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GamerCamp\GameSpecific\Terminals\CObjTerminal.cpp">
+      <Filter>Classes\GamerCamp\GameSpecific\Terminals</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppMacros.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MenuScene.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GamerCamp\Collections\NoAllocList.h">
+      <Filter>Classes\GamerCamp\Collections</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GamerCamp\Core\GCTypes.h">
+      <Filter>Classes\GamerCamp\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GamerCamp\Debug\GLES-Render.h">
+      <Filter>Classes\GamerCamp\DebugTools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GamerCamp\GameSpecific\Items\GCObjGroupItem.h">
+      <Filter>Classes\GamerCamp\GameSpecific\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GamerCamp\GameSpecific\Items\GCObjItem.h">
+      <Filter>Classes\GamerCamp\GameSpecific\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GamerCamp\GameSpecific\Platforms\GCObjGroupPlatform.h">
+      <Filter>Classes\GamerCamp\GameSpecific\Platforms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GamerCamp\GameSpecific\Platforms\GCObjPlatform.h">
+      <Filter>Classes\GamerCamp\GameSpecific\Platforms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GamerCamp\GameSpecific\Player\GCObjPlayer.h">
+      <Filter>Classes\GamerCamp\GameSpecific\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GamerCamp\GCCocosInterface\GB2ShapeCache-x.h">
+      <Filter>Classes\GamerCamp\GCCocosInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GamerCamp\GCCocosInterface\GCCallFuncStatic.h">
+      <Filter>Classes\GamerCamp\GCCocosInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GamerCamp\GCCocosInterface\GCCocosHelpers.h">
+      <Filter>Classes\GamerCamp\GCCocosInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GamerCamp\GCCocosInterface\GCObjSprite.h">
+      <Filter>Classes\GamerCamp\GCCocosInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GamerCamp\GCCocosInterface\GCObjSpritePhysics.h">
+      <Filter>Classes\GamerCamp\GCCocosInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GamerCamp\GCCocosInterface\GCObjTileLayer.h">
+      <Filter>Classes\GamerCamp\GCCocosInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GamerCamp\GCCocosInterface\IGCGameLayer.h">
+      <Filter>Classes\GamerCamp\GCCocosInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GamerCamp\GCObject\GCObject.h">
+      <Filter>Classes\GamerCamp\GCObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GamerCamp\GCObject\GCObjectGroup.h">
+      <Filter>Classes\GamerCamp\GCObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GamerCamp\GCObject\GCObjectManager.h">
+      <Filter>Classes\GamerCamp\GCObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GamerCamp\GCObject\GCObjGroupDefault.h">
+      <Filter>Classes\GamerCamp\GCObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GamerCamp\Win32Input\GCKeyboardManager.h">
+      <Filter>Classes\GamerCamp\Win32Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GamerCamp\GCCocosInterface\SGCFactoryCreationParams.h">
+      <Filter>Classes\GamerCamp\GCCocosInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GamerCamp\Win32Input\CInputKeyboard.h">
+      <Filter>Classes\GamerCamp\Win32Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GamerCamp\GameController\GCControllerManager.h">
+      <Filter>Classes\GamerCamp\GameController</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GamerCamp\GameController\GCController.h">
+      <Filter>Classes\GamerCamp\GameController</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GamerCamp\GCCocosInterface\GCCollisionManager.h">
+      <Filter>Classes\GamerCamp\GCCocosInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GamerCamp\GCCocosInterface\GCFactory_ObjSpritePhysics.h">
+      <Filter>Classes\GamerCamp\GCCocosInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GamerCamp\GCCocosInterface\LevelLoader\GCLevelLoader_Ogmo.h">
+      <Filter>Classes\GamerCamp\GCCocosInterface\LevelLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GamerCamp\GameSpecific\Nodes\CTurnNode.h">
+      <Filter>Classes\GamerCamp\GameSpecific\Nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GamerCamp\GameSpecific\Nodes\CJumpNode.h">
+      <Filter>Classes\GamerCamp\GameSpecific\Nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Helper\GameConfig.h">
+      <Filter>Classes\Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Helper\HeaderLinker.h">
+      <Filter>Classes\Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GamerCamp\GameSpecific\Projectiles\GCObjGroupProjectile.h">
+      <Filter>Classes\GamerCamp\GameSpecific\Projectiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GamerCamp\GameSpecific\Projectiles\GCObjProjectile.h">
+      <Filter>Classes\GamerCamp\GameSpecific\Projectiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GamerCamp\GameSpecific\UI\UIAnimatedBar.h">
+      <Filter>Classes\GamerCamp\GameSpecific\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GamerCamp\GameSpecific\UI\UIAnimatedText.h">
+      <Filter>Classes\GamerCamp\GameSpecific\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GamerCamp\GameController\AudioManager\CAudioManager.h">
+      <Filter>Classes\GamerCamp\GameController\AudioManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GamerCamp\GameSpecific\Nodes\CExitNode.h">
+      <Filter>Classes\GamerCamp\GameSpecific\Nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GamerCamp\GameSpecific\Player\CObjShadow.h">
+      <Filter>Classes\GamerCamp\GameSpecific\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GamerCamp\GameSpecific\Platforms\CObjCrumblingPlatform.h">
+      <Filter>Classes\GamerCamp\GameSpecific\Platforms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GamerCamp\GameSpecific\Platforms\CObjMovingPlatform.h">
+      <Filter>Classes\GamerCamp\GameSpecific\Platforms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GamerCamp\GameSpecific\Hackables\CQTEHack.h">
+      <Filter>Classes\GamerCamp\GameSpecific\Hackables</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GamerCamp\GameSpecific\Levels\CLevelBase.h">
+      <Filter>Classes\GamerCamp\GameSpecific\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GamerCamp\EventManager\CEventManager.h">
+      <Filter>Classes\GamerCamp\EventManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GamerCamp\EventManager\CEventListener.h">
+      <Filter>Classes\GamerCamp\EventManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GamerCamp\GameSpecific\Items\CAmmoPickup.h">
+      <Filter>Classes\GamerCamp\GameSpecific\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GamerCamp\GameSpecific\Items\CWeaponPickup.h">
+      <Filter>Classes\GamerCamp\GameSpecific\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GamerCamp\GameSpecific\Environments\CEnvRock.h">
+      <Filter>Classes\GamerCamp\GameSpecific\Environments</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GamerCamp\GameSpecific\Levels\CGameOver.h">
+      <Filter>Classes\GamerCamp\GameSpecific\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GamerCamp\GameController\DataPersistence\CDataManager.h">
+      <Filter>Classes\GamerCamp\GameController\DataPersistence</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GamerCamp\GameSpecific\Barrier\CObjBarrier.h">
+      <Filter>Classes\GamerCamp\GameSpecific\Barrier</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GamerCamp\GameSpecific\Door\CObjDoor.h">
+      <Filter>Classes\GamerCamp\GameSpecific\Door</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GamerCamp\GameSpecific\Door\CObjDoorLeft.h">
+      <Filter>Classes\GamerCamp\GameSpecific\Door</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GamerCamp\GameSpecific\Door\CObjDoorRight.h">
+      <Filter>Classes\GamerCamp\GameSpecific\Door</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GamerCamp\GameSpecific\Enemies\B1\CEnemyB1.h">
+      <Filter>Classes\GamerCamp\GameSpecific\Enemies\B1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GamerCamp\GameSpecific\Enemies\R1\CEnemyR1.h">
+      <Filter>Classes\GamerCamp\GameSpecific\Enemies\R1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GamerCamp\GameSpecific\Enemies\R2\CEnemyR2.h">
+      <Filter>Classes\GamerCamp\GameSpecific\Enemies\R2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GamerCamp\GameSpecific\Enemies\R3\CEnemyR3.h">
+      <Filter>Classes\GamerCamp\GameSpecific\Enemies\R3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GamerCamp\GameSpecific\Hackables\CButtonHack.h">
+      <Filter>Classes\GamerCamp\GameSpecific\Hackables</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GamerCamp\GameSpecific\Hackables\CHackable.h">
+      <Filter>Classes\GamerCamp\GameSpecific\Hackables</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GamerCamp\GameSpecific\Levels\Act_1\CCutscene.h">
+      <Filter>Classes\GamerCamp\GameSpecific\Levels\Act_1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GamerCamp\GameSpecific\Levels\Act_1\CLevel1.h">
+      <Filter>Classes\GamerCamp\GameSpecific\Levels\Act_1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GamerCamp\GameSpecific\Levels\Act_1\CLevel2.h">
+      <Filter>Classes\GamerCamp\GameSpecific\Levels\Act_1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GamerCamp\GameSpecific\Levels\Act_1\CLevel3.h">
+      <Filter>Classes\GamerCamp\GameSpecific\Levels\Act_1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GamerCamp\GameSpecific\Levels\Act_1\CLevel4.h">
+      <Filter>Classes\GamerCamp\GameSpecific\Levels\Act_1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GamerCamp\GameSpecific\Levels\Act_2\CCutsceneAct2.h">
+      <Filter>Classes\GamerCamp\GameSpecific\Levels\Act_2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GamerCamp\GameSpecific\Levels\Act_3\CCreditScene.h">
+      <Filter>Classes\GamerCamp\GameSpecific\Levels\Act_3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GamerCamp\GameSpecific\Levels\Act_3\COutroScene3.h">
+      <Filter>Classes\GamerCamp\GameSpecific\Levels\Act_3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GamerCamp\GameSpecific\Levels\Menu\CAudioSetting.h">
+      <Filter>Classes\GamerCamp\GameSpecific\Levels\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GamerCamp\GameSpecific\Levels\Menu\CControlsMenu.h">
+      <Filter>Classes\GamerCamp\GameSpecific\Levels\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GamerCamp\GameSpecific\Levels\Menu\CGameLogoSplash.h">
+      <Filter>Classes\GamerCamp\GameSpecific\Levels\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GamerCamp\GameSpecific\Levels\Menu\CMainCutscene.h">
+      <Filter>Classes\GamerCamp\GameSpecific\Levels\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GamerCamp\GameSpecific\Levels\Menu\CMainMenu.h">
+      <Filter>Classes\GamerCamp\GameSpecific\Levels\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GamerCamp\GameSpecific\Levels\Menu\CPauseMenu.h">
+      <Filter>Classes\GamerCamp\GameSpecific\Levels\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GamerCamp\GameSpecific\Levels\Menu\CSettingsMenu.h">
+      <Filter>Classes\GamerCamp\GameSpecific\Levels\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GamerCamp\GameSpecific\Platforms\CObjFloor.h">
+      <Filter>Classes\GamerCamp\GameSpecific\Platforms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GamerCamp\GameSpecific\Platforms\CObjPerspectivePlatform.h">
+      <Filter>Classes\GamerCamp\GameSpecific\Platforms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GamerCamp\GameSpecific\Platforms\CObjWall.h">
+      <Filter>Classes\GamerCamp\GameSpecific\Platforms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GamerCamp\GameSpecific\ShadowTutorial\CShadowTutorial.h">
+      <Filter>Classes\GamerCamp\GameSpecific\ShadowTutorial</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GamerCamp\GameSpecific\Terminals\CObjTerminal.h">
+      <Filter>Classes\GamerCamp\GameSpecific\Terminals</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

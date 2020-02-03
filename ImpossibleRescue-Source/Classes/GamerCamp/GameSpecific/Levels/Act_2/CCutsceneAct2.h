@@ -1,0 +1,37 @@
+#ifndef _GCCUTSCENEACT2_H_
+#define _GCCUTSCENEACT2_H_
+
+#include "GamerCamp/GCCocosInterface/IGCGameLayer.h"
+
+class CAudioManager;
+class UIAnimatedText;
+class CCutsceneAct2
+	: public IGCGameLayer
+{
+private:
+	// UI Stuff - cutscene
+	CGCObjSprite*			m_pcBackground;
+	UIAnimatedText*			m_pcAnimatedText;
+	
+	// Audio Manager
+	CAudioManager*			m_pcAucioManager;
+public:
+	//////////////////////////////////////////////////////////////////////////
+	// Constructor and Destructor
+	//////////////////////////////////////////////////////////////////////////
+	CCutsceneAct2();
+	~CCutsceneAct2();
+	
+	//////////////////////////////////////////////////////////////////////////
+	// IGCGameLayer Virtual Methods
+	//////////////////////////////////////////////////////////////////////////
+	virtual void VOnCreate();
+	virtual void VOnDestroy();
+	virtual void VOnUpdate( f32 fTimeStep );
+
+	//////////////////////////////////////////////////////////////////////////
+	// UI Callbacks
+	//////////////////////////////////////////////////////////////////////////
+	void Callback_ContinueButton( Ref* pSender );
+};
+#endif
