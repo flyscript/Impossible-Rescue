@@ -7,7 +7,7 @@
  
  Launch the game by downloading or cloning this repo and navigating to [the Game folder](https://github.com/flyscript/Impossible-Rescue/tree/master/ImpossibleRescue-Game), and running [Impossible Rescue.exe](https://github.com/flyscript/Impossible-Rescue/blob/master/ImpossibleRescue-Game/Impossible%20Rescue.exe)
  
- ![Image of Yaktocat](https://static.wixstatic.com/media/3978e6_c6bd3535adea42bb963bdf656ea1835cf003.jpg/v1/fill/w_756,h_425,fp_0.50_0.50,q_90/3978e6_c6bd3535adea42bb963bdf656ea1835cf003.webp)
+ ![Image of Gameplay](https://static.wixstatic.com/media/3978e6_3f29fe13e47d404b9c4d0cb389769f4df003.jpg/v1/fill/w_814,h_458,al_c,q_90/3978e6_3f29fe13e47d404b9c4d0cb389769f4df003.webp)
  
 
 ### Key Features:
