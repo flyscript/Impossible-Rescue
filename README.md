@@ -7,6 +7,8 @@
  
  Launch the game by downloading or cloning this repo and navigating to [the Game folder](https://github.com/flyscript/Impossible-Rescue/tree/master/ImpossibleRescue-Game), and running [Impossible Rescue.exe](https://github.com/flyscript/Impossible-Rescue/blob/master/ImpossibleRescue-Game/Impossible%20Rescue.exe)
  
+ ![Image of Yaktocat](https://video.wixstatic.com/video/3978e6_c6bd3535adea42bb963bdf656ea1835c/480p/mp4/file.mp4)
+ 
 
 ### Key Features:
 * [Terminals that can be "Hacked"](https://github.com/flyscript/Impossible-Rescue/tree/master/ImpossibleRescue-Source/Classes/GamerCamp/GameSpecific/Hackables) via quick-time-events or time-based effort
