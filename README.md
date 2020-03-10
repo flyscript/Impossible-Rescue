@@ -7,6 +7,7 @@
  
  Launch the game by downloading or cloning this repo and navigating to [the Game folder](https://github.com/flyscript/Impossible-Rescue/tree/master/ImpossibleRescue-Game), and running [Impossible Rescue.exe](https://github.com/flyscript/Impossible-Rescue/blob/master/ImpossibleRescue-Game/Impossible%20Rescue.exe)
  
+Video:
  <a href="http://www.youtube.com/watch?feature=player_embedded&v=zA4llfM_bAo" target="_blank"><img src="https://static.wixstatic.com/media/3978e6_568b75fd99c742be9de827d8466627fcf003.jpg" alt="Video Clip of Impossible Rescue" width="853" height="480" border="10" /></a>
 
 ### Key Features:
