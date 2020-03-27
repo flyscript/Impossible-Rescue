@@ -22,3 +22,4 @@ Video:
 * An informative and unobtrusive [UI](https://github.com/flyscript/Impossible-Rescue/tree/master/ImpossibleRescue-Source/Classes/GamerCamp/GameSpecific/UI)
 * A [tutorial/narrative system](https://github.com/flyscript/Impossible-Rescue/tree/master/ImpossibleRescue-Source/Classes/GamerCamp/GameSpecific/ShadowTutorial) that conveys story and game mechanic elements
 * An [event management system](https://github.com/flyscript/Impossible-Rescue/tree/master/ImpossibleRescue-Source/Classes/GamerCamp/EventManager) that gives the player the ability to interact with the world, and allows world elements to affect eachother
+* A [build tool for compiling source assets](https://github.com/flyscript/Impossible-Rescue/blob/master/ImpossibleRescue-Source/BuildData/RunMake.bat) into engine-readable formats with TexturePacker and PhysicsEditor
